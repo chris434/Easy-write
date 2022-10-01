@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.bg-red-500 {
+    background-color: rgb(239 68 68);
+}
+
+.bg-sky-500 {
+    background-color: rgb(14 165 233);
+}
+
+.text-white {
+    color: white;
+}
+
+.m-all * {
+    margin: 0.3rem;
+}
