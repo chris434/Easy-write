@@ -4,5 +4,5 @@ export function Books() {
   const { user } = GetUser();
   console.log(user);
 
-  return <>{user ? <div> {user.displayName} </div> : <div>loading...</div>}</>;
+  return <>{user ? <div className=""> </div> : <div>loading...</div>}</>;
 }
